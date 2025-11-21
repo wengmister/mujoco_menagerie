@@ -145,13 +145,13 @@
   </worldbody>
 
   <actuator>
-    <motor class="fr3" name="fr3_torque1" joint="fr3_joint1" forcerange="-87 87"/>
-    <motor class="fr3" name="fr3_torque2" joint="fr3_joint2" forcerange="-87 87"/>
-    <motor class="fr3" name="fr3_torque3" joint="fr3_joint3" forcerange="-87 87"/>
-    <motor class="fr3" name="fr3_torque4" joint="fr3_joint4" forcerange="-87 87"/>
-    <motor class="fr3" name="fr3_torque5" joint="fr3_joint5" forcerange="-12 12"/>
-    <motor class="fr3" name="fr3_torque6" joint="fr3_joint6" forcerange="-12 12"/>
-    <motor class="fr3" name="fr3_torque7" joint="fr3_joint7" forcerange="-12 12"/>
+    <motor class="fr3" name="fr3_passive1" joint="fr3_joint1" forcerange="-87 87"/>
+    <motor class="fr3" name="fr3_passive2" joint="fr3_joint2" forcerange="-87 87"/>
+    <motor class="fr3" name="fr3_passive3" joint="fr3_joint3" forcerange="-87 87"/>
+    <motor class="fr3" name="fr3_passive4" joint="fr3_joint4" forcerange="-87 87"/>
+    <motor class="fr3" name="fr3_passive5" joint="fr3_joint5" forcerange="-12 12"/>
+    <motor class="fr3" name="fr3_passive6" joint="fr3_joint6" forcerange="-12 12"/>
+    <motor class="fr3" name="fr3_passive7" joint="fr3_joint7" forcerange="-12 12"/>
   </actuator>
 
   <contact>
