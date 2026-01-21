@@ -232,16 +232,16 @@
                       mass="0.0264823" diaginertia="0.001 0.001 0.001"/>
                     <joint name="joint7" axis="0 0 -1" class="finger" range="0 0.035"/>
                     <geom mesh="link7" material="gray_mat" class="visual"/>
-                    <geom type="box" size=".012 .015 .0025" pos="0 -0.015 -0.0025" rgba="1 0 0 .2" class="collision"/>
-                    <geom type="box" size=".015 .015 .0025" pos="0 -0.045 -0.0025" rgba="0 0 1 .2" class="collision"/>
+                    <geom type="box" size=".012 .015 .0025" pos="0 -0.015 -0.0025" rgba="1 0 0 .2" class="collision" contype="1" conaffinity="1"/>
+                    <geom type="box" size=".015 .015 .0025" pos="0 -0.045 -0.0025" rgba="0 0 1 .2" class="collision" contype="1" conaffinity="1"/>
                   </body>
                   <body name="link8" pos="0 0 0.13503" quat="1.89468e-08 -1.89469e-08 -0.707108 0.707105" gravcomp="1">
                     <inertial pos="0.000277817 0.0467674 -0.0092103" quat="0.553273 0.439968 -0.46134 0.536174"
                       mass="0.0264822" diaginertia="0.001 0.001 0.001"/>
                     <joint name="joint8" axis="0 0 1" class="finger" range="-0.035 0"/>
                     <geom mesh="link8" material="gray_mat" class="visual"/>
-                    <geom type="box" size=".012 .015 .0025" pos="0 0.015 -0.0025" rgba="1 0 0 .2" class="collision"/>
-                    <geom type="box" size=".015 .015 .0025" pos="0 0.045 -0.0025" rgba="0 0 1 .2" class="collision"/>
+                    <geom type="box" size=".012 .015 .0025" pos="0 0.015 -0.0025" rgba="1 0 0 .2" class="collision" contype="1" conaffinity="1"/>
+                    <geom type="box" size=".015 .015 .0025" pos="0 0.045 -0.0025" rgba="0 0 1 .2" class="collision" contype="1" conaffinity="1"/>
                   </body>
                 </body>
               </body>
@@ -267,7 +267,7 @@
     <position name="joint4" joint="joint4" class="piper" kp="40" kv="5"/>
     <position name="joint5" joint="joint5" class="piper" kp="10" kv="1.5"/>
     <position name="joint6" joint="joint6" class="piper" kp="10" kv="1.5"/>
-    <position name="gripper" joint="joint7" class="finger" kp="40" kv="5"/>
+    <position name="gripper" joint="joint7" class="finger" kp="80" kv="5"/>
   </actuator>
 
   <keyframe>
